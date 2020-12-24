@@ -1,0 +1,288 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.cls-1{fill:#81dfff;}
+.cls-2{fill:#b7edff;}
+.cls-3{opacity:0.8;}
+.cls-4{fill:#454c61;}
+.cls-5{fill:#30384f;}
+.cls-47,.cls-48,.cls-55,.cls-59,.cls-6,.cls-63,.cls-64,.cls-65{fill:#fff;}
+.cls-7{fill:#f5d533;}
+.cls-8{fill:#ff6469;}
+.cls-9{fill:#75c1f8;}
+.cls-10{fill:#b8dffb;}
+.cls-11{fill:#3fa9f5;}
+.cls-12{fill:#828ba4;}
+.cls-12,.cls-25,.cls-34{opacity:0.3;}
+.cls-12,.cls-25,.cls-34,.cls-37,.cls-46,.cls-47,.cls-48,.cls-55,.cls-59,.cls-63,.cls-64,.cls-65{isolation:isolate;}
+.cls-13{fill:#4f5669;}
+.cls-14{fill:#3a4258;}
+.cls-15{fill:#7f8492;}
+.cls-16{fill:#6e7484;}
+.cls-17,.cls-37{fill:#07c;}
+.cls-18{fill:#eaecf0;}
+.cls-19{fill:#c8ccd7;}
+.cls-20{fill:#dfe2e8;}
+.cls-21{fill:#d0d3dc;}
+.cls-22{fill:#fcfcfd;}
+.cls-23{fill:#c0c4d1;}
+.cls-24{fill:#a7adbf;}
+.cls-25,.cls-28{fill:#616c8c;}
+.cls-26{fill:#b0b5c5;}
+.cls-27{fill:#9098ae;}
+.cls-29{fill:#4d4d4d;}
+.cls-30{fill:#333;}
+.cls-31{fill:#ffc1c3;}.cls-32{fill:#69bcf7;}.cls-33{fill:#596072;}.cls-34{fill:#878fa8;}.cls-35{fill:#626879;}.cls-36{fill:#cbced9;}.cls-37{opacity:0.6;}.cls-38{fill:url(#Degradado_sin_nombre);}.cls-39{fill:#666c7d;}.cls-40{fill:#c6cad6;}.cls-41{fill:#84c8f9;}.cls-42{fill:#f3f3f4;}.cls-43{fill:#8189a3;}.cls-44{fill:#e2e3e6;}.cls-45{fill:url(#Degradado_sin_nombre_2);}.cls-47,.cls-48{font-size:10.81px;}.cls-47,.cls-48,.cls-55,.cls-59,.cls-63,.cls-64,.cls-65{font-family:ArialMT, Arial;}.cls-47{letter-spacing:0.2em;}.cls-48{letter-spacing:0.16em;}.cls-49{fill:#9fa5b9;}.cls-50{fill:#fbeda7;}.cls-51{fill:#f9e88f;}.cls-52{fill:#79829d;}.cls-53{fill:#b4ecff;}.cls-54{fill:#95d0f9;}.cls-55{font-size:13px;letter-spacing:0.05em;}.cls-56{fill:#ffbcbe;}.cls-57{fill:#ffaaac;}.cls-58{fill:#ff7b80;}.cls-59{font-size:9px;letter-spacing:0.05em;}.cls-60{letter-spacing:0.01em;}.cls-61{fill:#898e9b;}.cls-62{fill:#a9d8fa;}.cls-63,.cls-65{font-size:12px;}.cls-63{letter-spacing:-0.02em;}.cls-64{font-size:7px;letter-spacing:0.05em;}.cls-65{letter-spacing:0.05em;}.cls-66{letter-spacing:0.03em;}
+
+
+.contenido{
+  width: 100%;
+  height: 100vh;
+  background-color: #81dfff;
+  /* opacity: 0.8; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:0px;
+}
+
+.texto, .imagen{
+  width: 500px;
+}
+
+.texto{
+  margin-top: 130px;
+}
+
+.texto h1{
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  letter-spacing: 3.5pt;
+  word-spacing: 30pt;
+}
+
+.texto h2{
+  font-size: 4rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  letter-spacing: 3pt;
+  word-spacing: 10pt;
+  margin-top: -25px;
+}
+
+.texto p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 1.1rem;
+}
+
+.texto p strong{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.texto button{
+  background-color: black;
+}
+
+.texto button a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 0.8rem;
+}
+
+.texto svg{
+  color: white;
+}
+
+.texto a:hover {
+  color: white; 
+  text-decoration:none;
+
+}
+
+.icono svg{
+  color: black;
+  margin-left: 15px;
+}
+
+.icono svg a{
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 480px){
+
+  .texto{
+    width: 100%;
+    margin-top: -170px;
+    /* border: 1px solid black; */
+  }
+
+  .texto h1{
+    font-size: 1rem;
+    letter-spacing: 4px;
+    margin-bottom: 17px;
+  }
+  .texto h2{
+    font-size: 2rem;
+    letter-spacing: -1px;
+    word-spacing: 1px;
+    /* margin-top: -15px; */
+  }
+
+  .imagen{
+    width: 100%;
+
+  }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 1025px){
+
+  .imagen{
+    width: 100%;
+  }
+
+}
+
+
+
+
+svg #php{
+  animation-duration: 1s;
+  animation-name: animate1;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+svg #css{
+  animation-duration: 1.2s;
+  animation-name: animate2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+svg #js{
+  animation-duration: 0.8s;
+  animation-name: animate3;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+svg #node{
+  animation-duration: 1.2s;
+  animation-name: animate3;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+svg #psd{
+  animation-duration: 0.8s;
+  animation-name: animate2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+svg #html{
+  animation-duration: 1s;
+  animation-name: animate3;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+}
+
+svg:hover #code1{
+  animation-duration: 1s;
+  animation-name: animateCode1;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+}
+
+svg:hover #code2{
+  animation-duration: 1s;
+  animation-name: animateCode2;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+}
+
+svg:hover #web{
+  animation-duration: 1s;
+  animation-name: web;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+}
+
+@keyframes web{
+  from{
+    transform: translateX(5) translateY(-10);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(1px) translateY(-20px);
+    opacity: 1;
+  }
+}
+
+@keyframes animateCode1{
+  from{
+    transform: translateX(0) translateY(0);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(35px) translateY(10px);
+    opacity: 1;
+  }
+}
+
+@keyframes animateCode2{
+  from{
+    transform: translateX(0) translateY(0);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(-35px) translateY(-30px);
+    opacity: 1;
+  }
+}
+
+
+@keyframes animate1{
+  from{
+    transform: translateX(0) translateY(0);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(1px) translateY(-15px);
+    opacity: 1;
+  }
+}
+
+@keyframes animate2{
+  from{
+    transform: translateX(0) translateY(0);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(2px) translateY(-20px);
+    opacity: 1;
+  }
+}
+
+@keyframes animate3{
+  from{
+    transform: translateX(0) translateY(0);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(3px) translateY(-40px);
+    opacity: 1;
+  }
+}
+
+
+
