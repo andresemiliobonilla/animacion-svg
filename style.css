@@ -121,7 +121,7 @@
 
   .texto{
     width: 100%;
-    margin-top: -170px;
+    /* margin-top: 0px; */
     /* border: 1px solid black; */
   }
 
