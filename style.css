@@ -101,6 +101,10 @@
   color: white;
 }
 
+.atribucion{
+  font-size: 12px;
+}
+
 .texto a:hover {
   color: white; 
   text-decoration:none;
@@ -118,6 +122,10 @@
 }
 
 @media screen and (max-width: 480px){
+
+  .contenido{
+    height: 100vh;
+  }
 
   .texto{
     width: 100%;
@@ -138,13 +146,14 @@
   }
 
   .imagen{
-    width: 100%;
-
+    width: 70%;
+    margin: auto;
   }
 
 }
 
 @media screen and (min-width: 481px) and (max-width: 1025px){
+
 
   .imagen{
     width: 100%;
